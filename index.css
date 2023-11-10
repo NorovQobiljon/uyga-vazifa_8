@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.container{
+    width: 1150px;
+    margin: 0 auto;
+}
+header{
+    background-color: #1391CEB2;
+    height: 100vh;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0px;
+}
+nav ul{
+    display: flex;
+    gap: 20px;
+}
+nav a{
+    color: #25468A;
+    ;
+    font-weight: 600;
+    font-size: 18ox;
+    border-bottom: 1px solid transparent;
+}
+.header-text{
+    font-size: 20px;
+    width: 550px;
+    color: #3B4A6B;
+}
+.header-title{
+font-size: 32px;
+width: 550px;
+padding: 20px 0px; 
+color: #25468A; 
+}
+.my-video{
+ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+ width: 700px;
+ height: 108px;
+ font-size: 92px;
+ margin-top: 150px;
+ margin-left: 0px;
+ line-height: 108px;  
+ color: #25468A;  
+ }
+nav a:hover{
+    color: white;
+    border-color: white;
+}
+nav button{
+    padding: 10px 20px;
+    border-radius: 25px;
+    color: #FFFFFF;
+    background-color: #25468A;
+    border: none;
+}
+nav button:hover{
+    padding: 10px 20px;
+    border-radius: 25px;
+    color:#25468A ;
+    background-color: white;
+    border: none;
+}
+.header-btn button{
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+}
+.header-btn button:hover{
+    background:yellow;
+    color:#25468A
+}
+.header-btn{
+    display: flex;
+    gap: 20px;
+    padding-top: 20px;
+}
+.header-right img{
+    width: 560px;
+    height: 401px;
+    padding-left: 720px
+}
+.converts{
+    color: #FFFFFF;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;   
+}
+.convert{
+    background: #1391CE;
+    width: 250px;
+    height: 150px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.loves{
+    color: #1391CE;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+.love{
+    background:#FFFFFF;
+    width: 350px;
+    height: 100px;
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 300; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.main-images{
+    width: 448px;
+    height: 256px;
+    display: flex;
+    justify-content: space-between;
+}
+.main-1{
+    width: 560px;
+    height: 408px;
+}
+
+
+  
